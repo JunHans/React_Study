@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "sparta",
+			"path": "../../../../../Users/jun/Desktop/sparta"
+		},
+		{
+			"name": "FrontCAMP-14-master",
+			"path": "../../../../FrontCAMP-14-master/FrontCAMP-14-master"
+		},
+		{
+			"name": "WebClientLabs",
+			"path": "../../../../WEB/WebClientLabs"
+		},
+		{
+			"name": "Labs",
+			"path": "../../../../WEB(Back)/Labs"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Labs",
+		"liveServer.settings.port": 8091
+	}
+}
