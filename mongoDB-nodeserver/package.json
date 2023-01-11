@@ -1,0 +1,21 @@
+{
+  "name": "mongodb-nodeservlet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "junhan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "nodemon": "^2.0.20",
+    "react-bootstrap": "^2.7.0"
+  }
+}

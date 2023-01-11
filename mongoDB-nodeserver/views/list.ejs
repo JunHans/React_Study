@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>리스트페이지</h1>
+    <img src="https://www.kosafoods.com/wp-content/uploads/2021/04/Kosa-Logo-wShadow-1000.png">
+    
+    <!-- <h2><%= %></h2> -->
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">제목</th>
+                <th scope="col">날짜</th>
+
+              </tr>
+            </thead>
+            <tbody>
+                <% for(let i = 0; i < daebos.length ; i++){ %>
+                    <tr>
+                        <td>제목 : <%= daebos[i].title %></td>
+                        <td>날짜 : <%= daebos[i].date %></td>
+                    </tr>
+                    <% } %>
+             
+            </tbody>
+          </table>
+</body>
+</html>
